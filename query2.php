@@ -1,7 +1,7 @@
 <html>
      <body>
           <?php
-               include 'get-parameters.php';
+               include '.parameters/get-parameters.php';
                $_pick = $_POST['selection'];
 
                switch ($_pick) {
