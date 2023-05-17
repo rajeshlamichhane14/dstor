@@ -96,7 +96,7 @@ $username   = getenv('rajesh');
 $password   = getenv('itabrap003033aA');
 $db_name     = getenv('Countrydatadump');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
-#$sslcert   = getenv('DB_SSLCERT');
+$sslcert   = getenv('DB_SSLCERT');
 
 # LOCAL DECLARATION - for Testing only
 #$host       = 'SQLdbENDPOINT';
