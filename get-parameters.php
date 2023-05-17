@@ -94,7 +94,7 @@ $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 $host       = getenv('rajesh.mysql.database.azure.com');
 $username   = getenv('rajesh');
 $password   = getenv('itabrap003033aA');
-$db_name     = getenv('Countrydatadump');
+$db_name     = getenv('capstonedb1');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 $sslcert   = getenv('DB_SSLCERT');
 
